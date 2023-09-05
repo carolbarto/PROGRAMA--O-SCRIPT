@@ -1,4 +1,5 @@
 import PrimeiroComponente from "@/components/primeiroComp";
+import ValidaCPF from "@/components/cpfComp";
 
 export default function AulaComp(){
     return(
@@ -7,9 +8,8 @@ export default function AulaComp(){
                 titulo="Meu primeiro Componente"
                 subtitulo="Estamos aprendendo NEXT.js com REACT"
             />
-            <ValidaCPF
-                
-            />
+            <ValidaCPF cpf = "12345678912"/>
+            <ValidaCPF cpf = "12345678"/>
         </>
     )
 }
