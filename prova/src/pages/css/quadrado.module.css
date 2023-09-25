@@ -1,0 +1,21 @@
+.quadradoPreto {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.quadradoBranco {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+ .controledirecao{
+    display: flex;
+ }
+
+.pecaVermelha{
+    border-radius: 50px;
+    width: 98px;
+    height: 98px;
+    background-color: red;
+}
